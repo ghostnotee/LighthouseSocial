@@ -1,0 +1,6 @@
+namespace Domain.Common;
+
+public abstract class EntityBase
+{
+    public Guid Id { get; protected set; } = Guid.CreateVersion7();
+}
